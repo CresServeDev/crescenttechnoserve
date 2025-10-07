@@ -30,6 +30,9 @@
 26. Testimonial
 --------------------------------------------------------------
 */
+/* //added new font by aniket */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 @import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&amp;display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&amp;display=swap");
 /*:root {
@@ -63,7 +66,7 @@
 .gt-theme-btn {
   font-size: 17px;
   font-weight: 700;
-  font-family: "Chakra Petch";
+  font-family: "Poppins";
   letter-spacing: 0.5px;
   text-transform: uppercase;
   color: var(--gt-white);
@@ -115,7 +118,7 @@
     Template Default Fonts & Fonts Styles
  ---------------------------------------------- */
 body {
-  font-family: "Chakra Petch", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 600;
   line-height: 28px;
@@ -154,7 +157,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Chakra Petch", sans-serif;
+  font-family: "Poppins", sans-serif;
   margin: 0px;
   padding: 0;
   color: var(--gt-white);
@@ -1511,7 +1514,7 @@ span {
 .gt-contact-us-wrapper .gt-contact-bg .gt-contact-content .gt-contact-item .gt-list li {
   font-size: 16px;
   font-weight: 700;
-  font-family: "Chakra Petch", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: var(--gt-white);
 }
 @media (max-width: 1199px) {
@@ -1571,7 +1574,7 @@ span {
 .gt-contacts-wrapper .gt-contact-item .gt-list li {
   font-size: 16px;
   font-weight: 700;
-  font-family: "Chakra Petch", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: var(--gt-white);
 }
 @media (max-width: 1199px) {
@@ -1644,7 +1647,7 @@ span {
 .modal-common-wrap .modal-body .gt-join-club-form .gt-join-club-content .form-clt span {
   font-size: 18px;
   font-weight: 600;
-  color: "Chakra Petch", sans-serif;
+  color: "Poppins", sans-serif;
   color: var(--gt-header);
   padding-bottom: 12px;
   display: inline-block;
@@ -2081,7 +2084,7 @@ span {
 .gt-faq-wrapper .gt-contact-bg .gt-contact-content .gt-contact-item .gt-list li {
   font-size: 16px;
   font-weight: 700;
-  font-family: "Chakra Petch", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: var(--gt-white);
 }
 @media (max-width: 1199px) {
@@ -4742,7 +4745,7 @@ span {
 .gt-game-detaills-wrapper .gt-main-sideber .gt-contact-bg .gt-contact-content .gt-contact-item .gt-list li {
   font-size: 16px;
   font-weight: 700;
-  font-family: "Chakra Petch", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: var(--gt-white);
 }
 @media (max-width: 1199px) {
@@ -4788,7 +4791,7 @@ span {
   font-weight: 700;
   letter-spacing: -0.34px;
   color: var(--gt-white);
-  font-family: "Chakra Petch", sans-serif;
+  font-family: "Poppins", sans-serif;
   padding: 20px 0;
   text-align: left;
   position: relative;
@@ -4986,7 +4989,7 @@ span {
   display: inline-block;
   font-size: 18px;
   font-weight: 600;
-  font-family: "Chakra Petch", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .header-main .main-menu ul li:hover > a {
   color: var(--gt-theme);
@@ -7448,7 +7451,7 @@ span {
 .gt-match-details-wrapper .gt-main-sideber .gt-contact-bg .gt-contact-content .gt-contact-item .gt-list li {
   font-size: 16px;
   font-weight: 700;
-  font-family: "Chakra Petch", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: var(--gt-white);
 }
 @media (max-width: 1199px) {
@@ -7501,7 +7504,7 @@ span {
   text-transform: uppercase;
   border-bottom: 1px solid var(--gt-text) !important;
   border: none;
-  font-family: "Chakra Petch", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .mean-container .mean-nav ul li a:hover {
   color: var(--gt-theme);
@@ -8091,7 +8094,7 @@ span {
 .gt-main-sideber .gt-contact-bg .gt-contact-content .gt-contact-item .gt-list li {
   font-size: 16px;
   font-weight: 700;
-  font-family: "Chakra Petch", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: var(--gt-white);
 }
 @media (max-width: 1199px) {
@@ -8200,7 +8203,7 @@ span {
   display: inline-block;
   margin-right: 8px;
   color: var(--gt-header);
-  font-family: "Chakra Petch", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .gt-news-details-wrapper .gt-news-details-content .gt-tag-share-wrap .tagcloud a {
   display: inline-block;
@@ -8340,7 +8343,7 @@ span {
   }
 }
 .preloader .animation-preloader .txt-loading {
-  font: bold 5em "Chakra Petch", sans-serif, "Chakra Petch", sans-serif;
+  font: bold 5em "Poppins", sans-serif, "Poppins", sans-serif;
   text-align: center;
   user-select: none;
 }
@@ -8380,7 +8383,7 @@ span {
   content: attr(data-text-preloader);
   left: 0;
   opacity: 0;
-  font-family: "Chakra Petch", sans-serif;
+  font-family: "Poppins", sans-serif;
   position: absolute;
   top: -3px;
   transform: rotateY(-90deg);
@@ -8865,7 +8868,7 @@ span {
   position: absolute;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: "Chakra Petch", sans-serif;
+  font-family: "Poppins", sans-serif;
   top: 24px;
   right: -40px;
   transform: rotate(40.012deg);
@@ -8999,7 +9002,7 @@ span {
   letter-spacing: -0.32px;
   line-height: 1;
   color: var(--gt-white);
-  font-family: "Chakra Petch", sans-serif;
+  font-family: "Poppins", sans-serif;
   position: relative;
   display: inline-block;
   margin-bottom: 25px;
@@ -9067,7 +9070,7 @@ span {
   letter-spacing: -0.32px;
   line-height: 1;
   color: var(--gt-white);
-  font-family: "Chakra Petch", sans-serif;
+  font-family: "Poppins", sans-serif;
   position: relative;
   display: inline-block;
   margin-bottom: 25px;
@@ -10425,7 +10428,7 @@ span {
   color: var(--gt-header);
   font-size: 20px;
   text-transform: capitalize;
-  font-family: "Chakra Petch", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
 }
 .common-table .price-usd {
