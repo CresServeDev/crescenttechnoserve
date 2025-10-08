@@ -417,7 +417,21 @@
                         <div class="row g-4 align-items-center">
                             <div class="col-lg-5">
                                 <div class="gt-about-image-2 rotatedscal">
-                                    <img src="assets/img/aboutgig.gif" alt="img">
+                                    <img src="assets/img/aboutgig.gif" alt="img" class="rotating">
+                                    <style>
+                                        .rotating {
+                                          animation: spin 25s linear infinite;
+                                        }
+                                    
+                                        @keyframes spin {
+                                          from {
+                                            transform: rotate(0deg);
+                                          }
+                                          to {
+                                            transform: rotate(360deg);
+                                          }
+                                        }
+                                      </style>
                                     <!-- <div class="gt-bg-shape">
                                         <img src="assets/img/home-3/about/bg-shape.png" alt="img">
                                     </div> -->
