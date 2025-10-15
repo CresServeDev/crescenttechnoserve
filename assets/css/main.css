@@ -118,6 +118,11 @@
 /* --------------------------------------------
     Template Default Fonts & Fonts Styles
  ---------------------------------------------- */
+html{
+  scroll-behavior: smooth;
+}
+
+
 body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
