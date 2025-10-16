@@ -42,6 +42,17 @@
     </script> -->
     <!-- end -->
 </head>
+<style>
+    /* Fix: prevent content cut-off due to overflow hidden */
+    .gt-service-details-section.fix {
+        overflow: visible !important;
+    }
+
+    /* Optional: smooth scrolling for better user experience */
+    html {
+        scroll-behavior: smooth;
+    }
+</style>
 
 <body>
     <!-- Preloader Start -->
@@ -51,7 +62,7 @@
             </div> -->
             <div class="center">
                 <img src="assets/img/logo/logo3.svg" alt="Logo"
-                style="width: 150px; height: 150px; margin-bottom: 20px;">
+                    style="width: 150px; height: 150px; margin-bottom: 20px;">
             </div>
             <div class="txt-loading">
                 <span data-text-preloader="C" class="letters-loading">
@@ -238,11 +249,14 @@
                                                     </a>
                                                     <ul class="submenu">
 
-                                                        <li><a href="infrastructureandsupport.html#itconsultant">IT Consultant</a></li>
+                                                        <li><a href="infrastructureandsupport.html#itconsultant">IT
+                                                                Consultant</a></li>
                                                         <hr>
-                                                        <li><a href="infrastructureandsupport.html#ithelpdesk">IT Helpdesk Support</a></li>
+                                                        <li><a href="infrastructureandsupport.html#ithelpdesk">IT
+                                                                Helpdesk Support</a></li>
                                                         <hr>
-                                                        <li><a href="infrastructureandsupport.html#itoutsourcing">IT Oursourcing</a></li>
+                                                        <li><a href="infrastructureandsupport.html#itoutsourcing">IT
+                                                                Oursourcing</a></li>
                                                     </ul>
                                                 </li>
                                                 <hr>
@@ -328,7 +342,7 @@
 
                                             </ul>
                                         </li>
-                                        
+
                                         <!-- <li>
                                             <a href="Shop-details.html">
                                                 About
@@ -527,7 +541,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="col-xl-4 col-lg-4 col-md-6">
                             <div class="gt-counter-box-3">
                                 <div class="gt-content">
@@ -912,7 +926,8 @@
                                     <div class="gt-testimonial-card-items-2">
                                         <div class="gt-client-info">
                                             <div class="gt-thumb">
-                                                <img src="https://lh3.googleusercontent.com/a-/ALV-UjWVQuMmpyOh7M52i-p6vPgIRepXSu99b6B65UPrYgb6Ol3GKdFw=w72-h72-p-rp-mo-br100" alt="img">
+                                                <img src="https://lh3.googleusercontent.com/a-/ALV-UjWVQuMmpyOh7M52i-p6vPgIRepXSu99b6B65UPrYgb6Ol3GKdFw=w72-h72-p-rp-mo-br100"
+                                                    alt="img">
                                             </div>
                                             <div class="gt-content">
                                                 <h6>Onkar Deokar</h6>
@@ -924,7 +939,9 @@
                                                 <img src="assets/img/home-2/testimonial/bar.png" alt="img">
                                             </div>
                                             <p>
-                                                Excellent support for IT related queries and guiding customer with a proper feedback. Would recommend going for it, if you need any IT assistance.
+                                                Excellent support for IT related queries and guiding customer with a
+                                                proper feedback. Would recommend going for it, if you need any IT
+                                                assistance.
                                             </p>
                                         </div>
                                         <div class="star">
@@ -940,7 +957,8 @@
                                     <div class="gt-testimonial-card-items-2">
                                         <div class="gt-client-info">
                                             <div class="gt-thumb">
-                                                <img src="https://lh3.googleusercontent.com/a-/ALV-UjUnVrZteWkpBGk1VKaQsSQVETYTuZKi4FAjZ5mKczqTkkMg-bdZ=w72-h72-p-rp-mo-ba2-br100" alt="img">
+                                                <img src="https://lh3.googleusercontent.com/a-/ALV-UjUnVrZteWkpBGk1VKaQsSQVETYTuZKi4FAjZ5mKczqTkkMg-bdZ=w72-h72-p-rp-mo-ba2-br100"
+                                                    alt="img">
                                             </div>
                                             <div class="gt-content">
                                                 <h6>Paresh Khot</h6>
@@ -1133,10 +1151,13 @@
                                             solutions with a focus on reliability and business growth.
                                         </p>
                                         <div class="gt-social-icon d-flex align-items-center">
-                                            <a href="https://business.facebook.com/latest/home?business_id=527468693162152&asset_id=438243066038952"><i class="fab fa-facebook-f"></i></a>
+                                            <a
+                                                href="https://business.facebook.com/latest/home?business_id=527468693162152&asset_id=438243066038952"><i
+                                                    class="fab fa-facebook-f"></i></a>
                                             <!-- <a href="#"><i class="fab fa-twitter"></i></a> -->
                                             <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                                            <a href="https://www.instagram.com/crescent.technoserve/"><i class="fa-brands fa-instagram"></i></a>
+                                            <a href="https://www.instagram.com/crescent.technoserve/"><i
+                                                    class="fa-brands fa-instagram"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -1254,7 +1275,43 @@
 
 
 
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const hash = window.location.hash;
 
+            function activateTab(hash) {
+                const tabTrigger = document.querySelector(`a[href="${hash}"][data-bs-toggle="tab"]`);
+                if (tabTrigger) {
+                    const tab = new bootstrap.Tab(tabTrigger);
+                    tab.show();
+
+                    // Ensure content visibility
+                    const targetPane = document.querySelector(hash);
+                    if (targetPane) targetPane.classList.add('show', 'active');
+
+                    // Smooth scroll to section
+                    setTimeout(() => {
+                        window.scrollTo({ top: targetPane.offsetTop - 150, behavior: 'smooth' });
+                    }, 200);
+                }
+            }
+
+            // On initial load with hash
+            if (hash) activateTab(hash);
+
+            // Update hash when user switches tabs
+            const tabLinks = document.querySelectorAll('[data-bs-toggle="tab"]');
+            tabLinks.forEach(link => {
+                link.addEventListener('shown.bs.tab', function (e) {
+                    const newHash = e.target.getAttribute('href');
+                    history.replaceState(null, null, newHash);
+                });
+            });
+
+            // Handle future hash changes (if user clicks submenu again)
+            window.addEventListener('hashchange', () => activateTab(window.location.hash));
+        });
+    </script>
 
 
 
