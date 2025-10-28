@@ -2431,7 +2431,7 @@ span {
   content: "";
   width: 90px;
   height: 1px;
-  background: linear-gradient(90deg, #FF0808 30%, rgba(11, 14, 19, 0) 100%);
+  background: linear-gradient(90deg, #2de9ff 30%, rgba(11, 14, 19, 0) 100%);
   animation: slideBorder 3s linear infinite alternate;
 }
 .gt-gaming-feature-wrapper .gt-gaming-feature-content .gt-icon-list::after {
@@ -2442,7 +2442,7 @@ span {
   content: "";
   width: 90px;
   height: 1px;
-  background: linear-gradient(90deg, #FF0808 30%, rgba(11, 14, 19, 0) 100%);
+  background: linear-gradient(90deg, #2de9ff 30%, rgba(11, 14, 19, 0) 100%);
   animation: slideBorders 3s linear infinite alternate;
 }
 .gt-gaming-feature-wrapper .gt-gaming-feature-content .gt-icon-list li {
